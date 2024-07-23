@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 20px;
+    top: 0;
+    z-index: 1000;
+    height: 100vh;
+}
+
+.sidebar {
+    background-color: rgba(53, 52, 52, 0.6);
+    height: 90vh;
+    margin-top: 80px;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.sidebar h1 {
+    text-align: center;
+    background: rgba(53, 52, 52, 0.6);
+    border-radius: 10px;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.sidebar:hover {
+    background-color: rgba(53, 52, 52, 1);
+}
+
+form {
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form .field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form .field input,
+select,
+form button {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+form button {
+    cursor: pointer;
+    background: #000;
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 15px;
+    white-space: nowrap;
+    margin-top: 10px;
+    overflow: auto;
+    height: 100%;
+    padding-right: 10px;
+}
+
+ul::-webkit-scrollbar {
+    background: #000;
+    border-radius: 10px;
+    width: 12px;
+}
+
+ul::-webkit-scrollbar-thumb {
+    background: gray;
+    border-radius: 10px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #575757;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+li div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li div p {
+    border-bottom: 1px solid rgba(148, 148, 148, 0.25);
+}
+
+li div p span {
+    font-weight: 900;
+}
+
+li #delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+}
+
+li #delete:hover {
+    background: #414141;
+    border-radius: 10px;
+}
+
+li #fly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+li #fly:hover {
+    background: #414141;
+    border-radius: 10px;
+}
+#map{
+    height: 100vh;
+    
+}

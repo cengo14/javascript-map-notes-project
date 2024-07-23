@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Notes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+</head>
+
+<body>
+    <aside>
+        <div class="sidebar">
+            <h1>Notlar</h1>
+            <form>
+                <div class="field">
+                    <label for="notes">Not ekle</label>
+                    <input type="text" id="notes">
+                </div>
+                <div class="field">
+                    <label for="date">Tarih Ekle</label>
+                    <input type="date" name="" id="date">
+                </div>
+                <div class="field">
+                    <label for="status">Durum</label>
+                    <select id="status">
+                        <option value="park">Park Yeri</option>
+                        <option value="home">Ev</option>
+                        <option value="job">İş</option>
+                        <option value="goto">Ziyaret Edilecek</option>
+                    </select>
+                </div>
+                <button>Ekle</button>
+            </form>
+            <ul>
+                <!-- <li>
+                    <div>
+                        <p>description</p>
+                        <p><span>Tarih:</span>18.07.2024</p>
+                        <p><span>Durum:</span>status</p>
+                    </div>
+                    <i id="delete" class="bi bi-x"></i>
+                    <i id="fly" class="bi bi-airplane-fill"></i>
+                </li> -->
+            </ul>
+        </div>
+    </aside>
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
