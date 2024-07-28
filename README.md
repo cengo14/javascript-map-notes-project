@@ -14,8 +14,8 @@ Bu proje, HTML, CSS, JavaScript ve Leaflet kullanarak hazırlanmış bir harital
 - **Responsive Tasarım:** Farklı cihazlara uyumlu bir arayüz.
 
 ## Ekran Görüntüleri
+![Ana Sayfa](desktop.gif)
 
-*Ekran görüntüleri burada olacak*
 
 ## Kurulum
 
@@ -52,5 +52,3 @@ Katkılarınızı memnuniyetle karşılıyoruz! Hataları bildirmeniz veya yeni 
 Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakın.
 
 ---
-## Ekran Görüntüleri
-![Ana Sayfa](desktop.gif)
